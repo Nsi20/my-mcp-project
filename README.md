@@ -94,10 +94,6 @@ python groq_test.py
 3. Commit your changes
 4. Push to your fork and submit a pull request
 
-## License
-
-Specify your license here (e.g., MIT, Apache 2.0, etc.)
-
 ## Acknowledgments
 
 - [LangChain](https://python.langchain.com/)
