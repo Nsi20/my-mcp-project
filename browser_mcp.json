@@ -1,0 +1,30 @@
+{
+  "mcpServers": {
+    "desktop-commander": {
+      "command": "npx",
+      "args": ["-y", "@wonderwhy-er/desktop-commander"]
+    },
+    "playwright": {
+      "command": "npx",
+      "args": ["@playwright/mcp@latest"]
+    },
+    "airbnb": {
+      "command": "npx",
+      "args": ["-y", "@openbnb/mcp-server-airbnb"]
+    },
+    "duckduckgo-search": {
+      "command": "npx",
+      "args": ["-y", "duckduckgo-mcp-server"]
+    },
+    "groq-compound": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "groq-compound-mcp-server"
+      ],
+      "env": {
+        "GROQ_API_KEY": "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"
+      }
+    }
+  }
+}
